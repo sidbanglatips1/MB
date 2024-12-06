@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "f2705b04f8f2d9f33a13fd9f642cdd5c770b193f")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Modijiurl.com')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "f2705b04f8f2d9f33a13fd9f642cdd5c770b193f")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Modijiurl.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "f2705b04f8f2d9f33a13fd9f642cdd5c770b193f")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Modijiurl.com')
+SHORTENER_API = environ.get("SHORTENER_API", "8d9f69b1cd969c0e0eeebf757a90b12655c5b625")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shrinkme.io')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "8d9f69b1cd969c0e0eeebf757a90b12655c5b625")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shrinkme.io')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "8d9f69b1cd969c0e0eeebf757a90b12655c5b625")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shrinkme.io')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -68,10 +68,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://ssl.gstatic.com/images/icons/material/system/1x/done_white_16dp.png')
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/Rwo.jpg https://envs.sh/Rwo.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/Rwo.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/RwN.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
