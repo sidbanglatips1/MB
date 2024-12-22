@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26107399'))
 API_HASH = environ.get('API_HASH', 'e10525d8ad0189f8bf7a82a32f538d12')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7874651138:AAGtO65vMlAaga7ho0BymsaZQ3tT0dLbzxw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7326038229:AAE44KZ5eKeKFzGrDNtZ761vOaER2FwFfJI')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1275850738').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/ExTra_OrdiNaRy_BoY") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002177262481'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002322713571'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/public_movie_search_group')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001817427847').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002293398648').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://yeasinmonir00:RKdHbMjevt9jnoIm@cluster0.tyvlf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -105,7 +105,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "cautious-harriet-hassanaly4201-af3bd9ba.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
