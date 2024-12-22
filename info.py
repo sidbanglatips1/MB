@@ -15,17 +15,17 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26107399'))
 API_HASH = environ.get('API_HASH', 'e10525d8ad0189f8bf7a82a32f538d12')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7988538429:AAH5KjnQKqS5VHXPQfslgNSwXFW_RTAnCrs')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1275850738').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/ExTra_OrdiNaRy_BoY") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002446690938'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movie_ott_film_group')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002322713571'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+xEfnrgNT5WY4MTdk')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001817427847').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mongodb7575:mkCNT8b2LZJX5ekf@cluster0.bcuh8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mnn38347:G5keQfhi5hOxdbTc@cluster0.mxlll.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://tinyurl.com/yvu7pbm4")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/RGV.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "232bab9ce253c4913085f9e879ad95f216c4c525")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortxlinks.xyz')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "232bab9ce253c4913085f9e879ad95f216c4c525")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.xyz')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shrinkme.io')
+SHORTENER_API = environ.get("SHORTENER_API", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shrinkme.io')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shrinkme.io')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "232bab9ce253c4913085f9e879ad95f216c4c525")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -95,7 +95,7 @@ LINK_MODE = is_enabled('LINK_MODE', True)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
@@ -105,7 +105,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "musical-lenora-mongodb7575-b017c55b.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
